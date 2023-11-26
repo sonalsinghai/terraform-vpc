@@ -1,0 +1,4 @@
+region         = "eu-west-2"
+bucket         = "val-dev-terraform-backend-state"
+key            = "val-dev-web/terraform.tfstate"
+dynamodb_table = "val-dev-backend-state-lock"
